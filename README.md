@@ -40,3 +40,16 @@ http://3.110.217.73
 ## Author
 
 **Name:** Ashlesha Kamal
+## Bonus Task: Docker Installation
+
+### Commands Used
+
+```bash
+sudo apt install docker.io -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo docker run hello-world
+```
+
+### Result
+Docker was installed successfully, and the `hello-world` container executed successfully.
